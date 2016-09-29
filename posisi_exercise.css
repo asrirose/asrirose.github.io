@@ -53,17 +53,17 @@ div#sidebar {
     text-align: center;
 }
 div#content {
-    width: 1044px;
-    height: 503px;
+    width: 1077px;
+    height: 539px;
     border-style: solid;
     background-color: lightgray;
-    padding: 15px;
+    padding: 151px;
+    box-sizing: border-box;
     display: inline-block;
-    float: right;
+    margin-top: 1px;
 }
 div#bottom_box {
     display: inline-block;
-    float: none;
     border-style: solid;
     height: 310px;
     width: 262px;
