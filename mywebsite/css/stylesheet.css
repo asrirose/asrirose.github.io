@@ -34,7 +34,7 @@ div#nav_menu {
     margin: 10px;
     text-align: center;
     line-height: 30px;
-    background-color: yellowgreen;
+    background-color: rgba(154, 205, 50, 0.52);
     transition: transform 5s;
     text-shadow: 4px 4px 2px blue;
 }
