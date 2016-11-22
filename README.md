@@ -1,1 +1,0 @@
-# asrirose.github.io
