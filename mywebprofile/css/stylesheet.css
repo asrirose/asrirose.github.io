@@ -11,7 +11,7 @@ a {
     	text-decoration: none;
 }
 #home {
-    	background: url(/img/logo22.jpg);
+    	background: url(../img/logo22.jpg);
 	background-repeat: no-repeat;
     	background-size: cover;
     	background-position: center;
