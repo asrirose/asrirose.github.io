@@ -1,24 +1,24 @@
 html body {
-    position: relative;
-    font-family: 'lato', sans-serif;
-    /*background-color: transparent;*/
-    margin: 0 auto;
+    	position: relative;
+    	font-family: 'lato', sans-serif;
+    	/*background-color: transparent;*/
+    	margin: 0 auto;
   	padding: 0;
   	overflow-x: hidden;
 }
 a {
-    color: #7af500;
-    text-decoration: none;
+    	color: #7af500;
+    	text-decoration: none;
 }
 #home {
-    background: url(../img/logo22.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    /* height: 100%; */
-    color: #fff;
-    background-color: #800082;
-    background-blend-mode: screen;
+    	background: url(img/logo22.jpg);
+	background-repeat: no-repeat;
+    	background-size: cover;
+    	background-position: center;
+    	/* height: 100%; */
+    	color: #fff;
+    	background-color: #800082;
+    	background-blend-mode: screen;
 }
 #home .container {
 	padding: 200px 0;
@@ -29,28 +29,28 @@ a {
 	color: rgb(25, 9, 235);
 	font-weight: 100;
 	font-family: 'Audiowide', cursive;
-    text-align: center;
-    text-shadow: 2px 2px 8px #FF0000;
+    	text-align: center;
+    	text-shadow: 2px 2px 8px #FF0000;
 }
 #home h3 {
 	font-family: 'Rye', cursive;
 	line-height: 30px;	
-    background-color: rgba(0, 0, 0, 0.29);
-    /*background-color: rgba(0, 0, 0, 0.16);*/
+    	background-color: rgba(0, 0, 0, 0.29);
+    	/*background-color: rgba(0, 0, 0, 0.16);*/
 }
 .rotating {
-    animation: rotating-function 8.25s linear infinite;
+    	animation: rotating-function 8.25s linear infinite;
 }
 @keyframes rotating-function {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  	from {
+    		transform: rotate(0deg);
+  	}
+  	to {
+    		transform: rotate(360deg);
+  	}
 }
 #about {
-	background: url(../img/logo16.jpg);
+	background: url(img/logo16.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -80,18 +80,18 @@ a {
 	font-size: 20px;
 }
 .v h2 {
-    border: 1px solid black;
-    border-radius: 100%;
-    width: 50%;
-    margin: 0 auto;
-    background-color: darkblue;
-    padding: 10px;
+    	border: 1px solid black;
+    	border-radius: 100%;
+    	width: 50%;
+    	margin: 0 auto;
+    	background-color: darkblue;
+    	padding: 10px;
 }
 a:focus, a:hover {
-    text-decoration: none;
+    	text-decoration: none;
 }
 #skills {
-	background: url(../img/logo21.jpg);
+	background: url(img/logo21.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -110,31 +110,31 @@ a:focus, a:hover {
 	font-weight: 100;
 }
 .row p {
-    padding: 50px;
-    font-size: 32px;
-    font-weight: bold;
-    text-align: center;
-    background: rgba(154, 205, 50, 0.63);
-    transition: transform 8s;
-    border-radius: 50%;
+    	padding: 50px;
+    	font-size: 32px;
+    	font-weight: bold;
+    	text-align: center;
+    	background: rgba(154, 205, 50, 0.63);
+    	transition: transform 8s;
+    	border-radius: 50%;
 }
 .row p:hover {
  	transform: rotateY(60deg);
  	color: #ff0000;
 }
 #video {
-    /* background: url(../img/logo16.jpg); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    color: #fff;
-    /* background-color: #8bc34a; */
-    background-blend-mode: screen;
+    	/* background: url(img/logo16.jpg); */
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	background-position: center;
+    	height: 100%;
+    	color: #fff;
+    	/* background-color: #8bc34a; */
+    	background-blend-mode: screen;
 }
 #video .container {
-    margin-bottom: 20px;
-    padding: 30px 0;
+    	margin-bottom: 20px;
+    	padding: 30px 0;
 	padding-bottom: 60px;
 }
 #video h1 {
@@ -143,7 +143,7 @@ a:focus, a:hover {
 	font-weight: 100;
 }
 #portfolio {
-	background: url(../img/logo20.jpg);
+	background: url(img/logo20.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -161,7 +161,7 @@ a:focus, a:hover {
 	font-weight: 100;
 }
 #contact {
-	background: url(../img/logo16.jpg);
+	background: url(img/logo16.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -182,57 +182,57 @@ a:focus, a:hover {
 }
 .form-group label {
 	display: block;
-    max-width: 100%;
-    margin-bottom: 5px;
-    font-weight: 700;
-    padding-top: 10px;
+    	max-width: 100%;
+    	margin-bottom: 5px;
+    	font-weight: 700;
+    	padding-top: 10px;
 }
 .contact-form form {
-    display: block;
-    box-sizing: border-box;
-    margin: 0 auto;
-    margin-top: 30px;
-    position: relative;
-    width: 100%;
-    height: 560px;
-    font-family: Tahoma, Geneva, sans-serif;
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: bold;
-    color: darkblue;
-    border-radius: 10px;
-    padding: 10px 25px;
-    border: 1px solid;
-    box-shadow: 8px 8px 4px blue;
-    background-color: rgba(241, 241, 241, 0.28);
+    	display: block;
+    	box-sizing: border-box;
+    	margin: 0 auto;
+    	margin-top: 30px;
+    	position: relative;
+    	width: 100%;
+    	height: 560px;
+    	font-family: Tahoma, Geneva, sans-serif;
+    	font-size: 14px;
+    	line-height: 24px;
+    	font-weight: bold;
+    	color: darkblue;
+    	border-radius: 10px;
+    	padding: 10px 25px;
+    	border: 1px solid;
+    	box-shadow: 8px 8px 4px blue;
+    	background-color: rgba(241, 241, 241, 0.28);
 }
 .contact-form input {
-    width: 100%;
-    display: inline-block;
-    border: 1px solid #999;
-    height: 40px;
-    box-shadow: 0px 0px 8px blue;
-    padding: 5px;
-    font-size: 15px;
-    background-color: seashell;
+    	width: 100%;
+    	display: inline-block;
+   	border: 1px solid #999;
+    	height: 40px;
+    	box-shadow: 0px 0px 8px blue;
+    	padding: 5px;
+    	font-size: 15px;
+    	background-color: seashell;
 }
 textarea#feedback {
 	min-width: 100%;
-    max-width: 100%;
-    min-height: 150px;
-    max-height: 250px;
-    display: inline-block;
-    box-shadow: 0px 0px 8px blue;
-    padding: 5px;
-    font-size: 15px;
-    background-color: seashell;
+    	max-width: 100%;
+    	min-height: 150px;
+    	max-height: 250px;
+    	display: inline-block;
+    	box-shadow: 0px 0px 8px blue;
+    	padding: 5px;
+    	font-size: 15px;
+    	background-color: seashell;
 }
 .contact-form input[type="submit"] {
-    position: absolute;
-    bottom: -40px;
-    width: 130px;
-    box-shadow: 8px 8px 4px blue;
-    line-height: 15px;
+    	position: absolute;
+    	bottom: -40px;
+    	width: 130px;
+    	box-shadow: 8px 8px 4px blue;
+    	line-height: 15px;
 }
 div#footerwrap {
 	background-color: #337ab7;
